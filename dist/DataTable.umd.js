@@ -6501,7 +6501,7 @@ function parser_parseTextProps(props) {
     propsExportData: function propsExportData() {
       return {
         allowedExports: this.allowedExports,
-        data: this.dataDisplayed,
+        data: this.dataFiltered,
         downloadButtonText: this.downloadButtonText,
         downloadFileName: this.downloadFileName,
         downloadText: this.downloadText
